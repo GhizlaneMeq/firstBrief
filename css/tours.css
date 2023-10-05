@@ -42,6 +42,7 @@ header{
 	background: transparent;
 	padding: 30px 18%;
 	transition: ease .40s;
+	background: var(--main-color);
 }
 .logo{
 	font-size: 35px;
@@ -52,6 +53,7 @@ header{
 }
 .navbar{
 	display: flex;
+	
 }
 .navbar a{
 	color: var(--bg-color);
@@ -239,7 +241,9 @@ header.sticky{
 	filter: brightness(100%) hue-rotate(45deg);
 	transform: scale(1.04);
 }
-
+.destination{
+	margin-top: 100px;
+}
 .destination-content{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(340px, auto));
@@ -408,20 +412,7 @@ header.sticky{
 	font-size: 14px;
 	letter-spacing: 2px;
 }
-.image-container {
-	position: relative;
-	width: 100%;
-	padding-top: 56.25%; /* 16:9 aspect ratio */
-  }
-  
-  .image-container img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover; /* Optional: Maintain image proportions */
-  }
+
 @media (max-width: 1400px){
 	header{
 		padding: 17px 3%;
