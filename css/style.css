@@ -16,6 +16,7 @@
         format('woff2');
     font-display: swap;
   }
+
 :root{
 	--bg-color: #fff;
 	--text-color: #221314;
@@ -25,6 +26,7 @@
 	--h2-font: 3rem;
 	--p-font: 1.1rem;
 }
+
 body{
 	background: var(--bg-color);
 	color: var(--text-color);
@@ -150,7 +152,7 @@ header.sticky{
 	cursor: pointer;
 }
 .container-img img{
-	height: 85px;
+	height:auto;
 	width: 85px;
 	padding: 15px;
 	background: var(--bg-color);
